@@ -83,3 +83,32 @@ kubectl scale deployments/[deployment_name] --replicas=[number_of_replicas]
 ```bash
 kubectl run [deployment_name] --image=[image_and_tag] --port=8080
 ```
+
+```bash
+kubectl config view
+```
+
+
+```bash
+kubectl config get-contexts
+```
+
+
+```bash
+kubectl get configmaps
+```
+
+
+```bash
+kubectl get secrets
+```
+
+
+```bash
+kubectl get configmap [config-map-name] -o yaml
+```
+
+
+```bash
+kubectl get secret [secrets-name] -o yaml
+```
